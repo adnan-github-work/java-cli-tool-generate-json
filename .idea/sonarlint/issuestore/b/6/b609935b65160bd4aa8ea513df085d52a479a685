@@ -1,0 +1,22 @@
+
+E
+java:S2093("*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+X	java:S125"<This block of commented-out lines of code should be removed.(¯ô¥®8ÀöÔşù.
+{
+java:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(«×‰˜ÿÿÿÿÿ8ŞŠÿù.
+B
+java:S3010"%Remove this assignment of "fileName".(ÕêÒû8åÁ¼ıù.
+F
+java:S1068")Remove this unused "value" private field.(ŸÑÆ÷8ØŒ„ıù.
+B
+java:S3010"%Remove this assignment of "fileName".(ÕêÒû8åÁ¼ıù.
+R
+java:S2209"5Change this instance-reference to a static reference.(ÕêÒû8åÁ¼ıù.
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(‰Êßıÿÿÿÿ8Ğæœşù.
+R
+java:S2209"5Change this instance-reference to a static reference.(ÕêÒû8åÁ¼ıù.
+Z
+java:S1197,"8Move the array designator from the variable to the type.(‘îü‹ûÿÿÿÿ8áş­şù.
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(†Ú«8Ğæœşù.
+N
+java:S1264*",Replace this "for" loop with a "while" loop.(¾«îíıÿÿÿÿ8¸‡ÿù.

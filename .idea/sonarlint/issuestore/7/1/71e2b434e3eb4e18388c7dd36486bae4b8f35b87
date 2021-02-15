@@ -1,0 +1,16 @@
+
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(Íƒ‘–ıÿÿÿÿ
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(˜ºœ—ıÿÿÿÿ8«¨ıù.
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(Š°ù¾ùÿÿÿÿ8‰ˆéüù.
+T
+java:S1854'"7Remove this useless assignment to local variable "str".(µ‡Ü8¾ŞŞ‡ú.
+Z	java:S106V"9Replace this use of System.out or System.err by a logger.(„ìÂĞúÿÿÿÿ8ç¢ü‡ú.
+Z	java:S106]"9Replace this use of System.out or System.err by a logger.(„ìÂĞúÿÿÿÿ8úÆö‡ú.
+P
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8Ääõ‡ú.
+G
+java:S1068"*Remove this unused "LOGGER" private field.(³×Àƒ8«¨ıù.
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(ŸÔÏşÿÿÿÿ
+E
+java:S1481'"(Remove this unused "str" local variable.(µ‡Ü8¾ŞŞ‡ú.
+Z	java:S106P"9Replace this use of System.out or System.err by a logger.(ŞÄÊøøÿÿÿÿ8ˆÖ¾Šú.
