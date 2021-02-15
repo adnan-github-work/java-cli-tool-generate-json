@@ -1,60 +1,52 @@
-# CLI Tool
+# Person Generator CLI Tool
 
-#To run the cli tool with jar that is at the root folder of project
-
-Command:
-java -jar cli-tool.jar "hello world"
-
-Output:
-HELLO WORLD
-hElLo wOrLd
-CSV created!
+#To run the person cli tool with person-cli-tool jar that is at the root folder of project
 
 Command:
-java -jar cli-tool.jar hello
+java -jar person-cli-tool.jar -f file_path
 
-Output:
-HELLO
-hElLo
-CSV created!
-
-Command:
-java -jar cli-tool.jar -all "hello world"
-
-Output:
-HELLO WORLD
-hElLo wOrLd
-CSV created!
-
-Command:
-java -jar cli-tool-0.0.1.jar -toUpperCase "hello world"
-
-Output:
-HELLO WORLD
-
-Command:
-java -jar cli-tool-0.0.1.jar -toAlternateCase "hello world"
-
-Output:
-hElLo wOrLd
+Output in logs:
+{
+"person": [
+{
+"first_name": "John",
+"last_name": "Keynes",
+"age": "29",
+"favourite_colour": "red"
+},
+{
+"first_name": "Sarah",
+"last_name": "Robinson",
+"age": "54",
+"favourite_colour": "blue"
+}
+]
+}
 
 Command:
-java -jar cli-tool-0.0.1.jar -createCSVFile "hello world"
+java -jar person-cli-tool.jar -d John Keats 25 British Red
 
 Output:
-CSV created!
+{
+"person": [
+{
+"first_name": "John",
+"last_name": "Keats",
+"age": "25",
+"favourite_colour": "Red"
+}]
+}
 
 
 #To run in IDE:
 
 Configure the main class with 'arguments'
 
-1: "hello world"
-2: hello
-3: -all "hello world"
-4: -toUpperCase "hello world"
-5: -toAlternateCase "hello world"
-6: -createCSVFile "hello world"
+From direct input: 
+-d John Keats 25 British Red 
+
+From file input:
+-f file_path
 
 
 # To execute the test cases just fire "gradle clean build"
