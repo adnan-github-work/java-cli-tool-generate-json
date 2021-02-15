@@ -1,1 +1,1 @@
-# java-cli-tool-generate-json
+# java-cli-tool-person-generate-json
