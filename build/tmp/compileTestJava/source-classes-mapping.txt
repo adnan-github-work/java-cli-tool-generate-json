@@ -1,2 +1,0 @@
-com/cli/tool/CLITest.java
- com.cli.tool.CLITest
